@@ -1,0 +1,1 @@
+# satgas-karantina.gianyarkab.go.id
