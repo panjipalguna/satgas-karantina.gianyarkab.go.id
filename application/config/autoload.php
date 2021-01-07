@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('form_validation', 'format', 'database', 'session', 'upload');
+$autoload['libraries'] = array('session', 'database', 'authentication', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url', 'form', 'jwt', "authorization", "date");
+$autoload['helper'] = array('url', 'file', 'form', 'form', 'my');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +103,7 @@ $autoload['helper'] = array('url', 'form', 'jwt', "authorization", "date");
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('jwt');
+$autoload['config'] = array('');
 
 /*
 | -------------------------------------------------------------------
